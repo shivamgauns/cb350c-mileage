@@ -1,0 +1,12 @@
+FREE ONLINE APK BUILD — NO SOFTWARE NEEDED
+
+1. Go to github.com and sign up or log in.
+2. Create a NEW PUBLIC repository (name: cb350c-mileage). Check Add a README if prompted, or create an empty repository.
+3. Extract this ZIP with your device built-in unzip/extract function.
+4. In the repository select Add file > Upload files. Drag ALL contents INSIDE the extracted CB350C_Online_Build folder into the upload box (including the hidden .github directory). If your file picker hides .github, drag the entire folder contents instead, or use GitHub Add file > Create new file and name it .github/workflows/build-apk.yml; paste the workflow from this ZIP.
+5. Click Commit changes. The files build.gradle, settings.gradle, app/, and .github/workflows/build-apk.yml must be at the TOP repository level.
+6. Open Actions > Build CB350C Mileage APK. The build may start automatically after upload; otherwise select Run workflow.
+7. Once the run is GREEN, open it, scroll to Artifacts and download CB350C-Mileage-Tracker-APK.
+8. Extract the downloaded artifact ZIP to find app-debug.apk. Transfer to Android phone, tap it and allow Install unknown apps if requested.
+
+This is a debug APK for personal use; it is not Play Store-signed. Online build requires internet access. Do not share personal fuel logs in the public repository.
